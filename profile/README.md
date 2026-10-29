@@ -1,4 +1,20 @@
-## vawe
+<p align="center">
+  <a href="https://vawe.dev"><img alt="vawe: one HTML page in, one mp4 out" src="profile/banner.png" width="100%"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/vawe-hq/vawe/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vawe-hq/vawe?style=flat" alt="License"></a>
+  <a href="https://github.com/vawe-hq/vawe/stargazers"><img src="https://img.shields.io/github/stars/vawe-hq/vawe?style=flat" alt="GitHub stars"></a>
+</p>
+
+<p align="center"><b>One HTML page in, one mp4 out. Video tooling for coding agents.</b></p>
+
+<p align="center">
+  <a href="https://vawe.dev">vawe.dev</a> |
+  <a href="https://vawe.dev/docs">Docs</a> |
+  <a href="https://github.com/vawe-hq/vawe">vawe</a> |
+  <a href="https://github.com/vawe-hq/skills">Skills</a>
+</p>
 
 Write one HTML page. vawe renders it to an mp4. You write the page, or a coding agent does.
 
