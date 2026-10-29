@@ -1,0 +1,18 @@
+name: Feature request
+description: Something you wanted to make and could not.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: What you tried to make
+      description: The film or the step, in plain words. If you wrote a page that should have worked, paste it.
+    validations:
+      required: true
+  - type: textarea
+    id: blocker
+    attributes:
+      label: What stopped you
+      description: The missing verb, option or effect, or the error you got.
+    validations:
+      required: true

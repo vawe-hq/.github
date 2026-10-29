@@ -1,0 +1,35 @@
+name: Bug report
+description: Something renders wrong, a command fails, or the output differs from the docs.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The smallest page or command that shows it. Paste the page, or link a gist.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: bin/vawe doctor
+      description: Paste the output of `bin/vawe doctor`.
+      render: text
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: The output of `git rev-parse --short HEAD`.
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: macOS 15, Ubuntu 24.04, Windows 11

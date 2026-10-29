@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question
+    url: https://github.com/vawe-hq/vawe/discussions
+    about: Ask how to do something.
+  - name: Docs
+    url: https://vawe.dev/docs
+    about: Install, the page contract and every verb.
+  - name: Security report
+    url: https://github.com/vawe-hq/vawe/security/advisories/new
+    about: Report a vulnerability privately.
