@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://vawe.dev"><img alt="vawe: one HTML page in, one mp4 out" src="profile/banner.png" width="100%"></a>
+  <a href="https://vawe.dev"><img alt="vawe: one HTML page in, one mp4 out" src="https://raw.githubusercontent.com/vawe-hq/.github/main/profile/banner.png" width="100%"></a>
 </p>
 
 <p align="center">
