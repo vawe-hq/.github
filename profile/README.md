@@ -21,10 +21,18 @@ Write one HTML page. vawe renders it to an mp4. You write the page, or a coding 
 The page is plain HTML, CSS, Web Animations, SVG, canvas or three.js. The renderer seeks it frame by
 frame in headless Chrome under a virtual clock, so the same page gives the same frames on every run.
 
-| Repository | What it is |
+```bash
+npm install @vawe/cli
+npx vawe new my-film --request "a 10 second title card"
+npx vawe dev films/my-film/page.html
+```
+
+| Repository | What it holds |
 |---|---|
-| [vawe](https://github.com/vawe-hq/vawe) | The framework: the renderer, the checks, the studio and the site |
-| [skills](https://github.com/vawe-hq/skills) | Six agent skills, `npx skills add vawe-hq/skills` |
+| [vawe](https://github.com/vawe-hq/vawe) | The framework: the renderer, the checks, the studio and the agent skills. npm package `@vawe/cli` |
+| [vawe-site](https://github.com/vawe-hq/vawe-site) | vawe.dev: the website, the template gallery and the marketplace |
+| [vawe-docs](https://github.com/vawe-hq/vawe-docs) | The documentation, served at vawe.dev/docs |
+| [skills](https://github.com/vawe-hq/skills) | Six agent skills, `npx skills add vawe-hq/skills`. A mirror: change them in vawe |
 
 Lists we keep from our own research, each entry with its source:
 
@@ -34,4 +42,4 @@ Lists we keep from our own research, each entry with its source:
 | [awesome-agent-skills-directories](https://github.com/vawe-hq/awesome-agent-skills-directories) | Where to list agent skills and plugins, and the rules for each |
 | [awesome-ai-search-visibility](https://github.com/vawe-hq/awesome-ai-search-visibility) | What the evidence says about being named and cited by AI engines |
 
-Start with the [quickstart](https://vawe.dev/docs/quickstart). Apache-2.0.
+Start with the [quickstart](https://vawe.dev/docs/quickstart). To help, read [CONTRIBUTING](https://github.com/vawe-hq/.github/blob/main/CONTRIBUTING.md). vawe is Apache-2.0.
